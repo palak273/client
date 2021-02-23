@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import ReactDOM, { render } from 'react-dom'
+import Register from './Register'
+import Select from './Select'
 import axios from 'axios'
 
 class App extends Component {
@@ -35,12 +37,12 @@ onSignInClick(event) {
     axios.post(`https://sleepy-bastion-25142.herokuapp.com/signin`,registered)
     .then(response => {
         console.log(response)
-        /* if(response.status===200){
+        if(response.status===200){
             ReactDOM.render(
                 <Select />,
                 document.getElementById('root')
               );
-        } */
+        } 
         //axios.get("/me")
     })
     console.log("The user wants to signin")
