@@ -4,7 +4,6 @@ import Todo from './Todo'
 import Notes from './Notes'
 import Select from './Select'
 import App from './App'
-import {DayPilot, DayPilotCalendar} from "daypilot-pro-react";
 
 class Schedule extends Component {
 
