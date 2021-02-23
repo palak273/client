@@ -54,10 +54,10 @@ onSignInClick(event) {
 handleClick(e) {
     e.preventDefault();
     console.log('The link was clicked.');
-    /* ReactDOM.render(
+    ReactDOM.render(
         <Register />,
         document.getElementById('root')
-      ); */
+      ); 
 }
   render() {
     return (
